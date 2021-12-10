@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Smoke Test"
-           tests="1"
+<testsuite name="Regression Test"
+           tests="3"
            failures="0"
            errors="0"
            skipped="0"
-           time="2.897">
+           time="12.309">
   <properties />
   
   
-            <testcase name="anAustralianComingToUKForTourism" time="2.897" classname="gov.uk.check.visa.testsuite.VisaConfirmationTest" />
+            <testcase name="anAustralianComingToUKForTourism" time="3.439" classname="gov.uk.check.visa.testsuite.VisaConfirmationTest" />
+                <testcase name="aChileanComingToTheUKForWorkAndPlansOnStayingForLongerThanSixMonths" time="4.691" classname="gov.uk.check.visa.testsuite.VisaConfirmationTest" />
+                <testcase name="aColumbianNationalComingToTheUKToJoinAPartnerForALongStayTheyDoHaveAnArticle10Or20Card" time="4.179" classname="gov.uk.check.visa.testsuite.VisaConfirmationTest" />
       
 </testsuite>
